@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <!-- SCRIPTS -->
+    <script
+      src="https://kit.fontawesome.com/1d585ba1df.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--julian script-icon-->
+    <script src="https://kit.fontawesome.com/b6755882cb.js" crossorigin="anonymous"
+    ></script>
+
+    <script src="./src/scripts/index.js" defer></script>
+    <title>Kenzie Bank</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <h1 class="header__logo">Kenzie <span>Bank</span></h1>
+      <nav class="header__menu">
+        <button class="menu__button"><i class="fa-solid fa-bars"></i></button>
+        <ul class="menu__list show__menu">
+          <a href="#">Notificações</a>
+          <a href="#">Ajuda</a>
+          <a href="#">Sobre nós</a>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__container">
+      <section class="user__container">
+        <div class="user__info">
+          <div class="user__image">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <h2 class="user__name">Juliano</h2>
+        </div>
+        <h2 class="user__balance">R$ 100.000</h2>
+      </section>
+      <section class="utils__container">
+        <ul class="utils__list">
+          <li class="utils__item">
+            <i class="fa-brands fa-pix"></i>
+            <p>Pix</p>
+          </li>
+          <li class="utils__item">
+            <i class="fa-solid fa-barcode"></i>
+            <p>Pagar conta</p>
+          </li>
+          <li class="utils__item">
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <p>Transferência</p>
+          </li>
+          <li class="utils__item">
+            <i class="fa-solid fa-credit-card"></i>
+            <p>Cartões</p>
+          </li>
+          <li class="utils__item">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+            <p>Extrato</p>
+          </li>
+          <li class="utils__item">
+            <i class="fa-solid fa-mobile"></i>
+            <p>Recarregar celular</p>
+          </li>
+        </ul>
+      </section>
+      <section class="services__container">
+        <ul class="services__list">
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Investimentos</h2>
+
+              <i class="fa-solid fa-arrow-trend-up"></i>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Seguros</h2>
+
+              <i class="fa-solid fa-hand-holding-heart"></i>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Empréstimo</h2>
+
+              <i class="fa-solid fa-landmark"></i>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Poupança</h2>
+
+              <i class="fa-solid fa-piggy-bank"></i>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Consórcio</h2>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+          <li class="services__item">
+            <div class="item__card">
+              <h2 class="card__title">Atendimento</h2>
+
+              <i class="fa-solid fa-headset"></i>
+
+              <p>Ver mais</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <dialog id="userModalController">
+      <div class="modal__container">
+        <button id="closeUserModal">X</button>
+        <section class="user-modal__info">
+          <div class="user__info">
+            <div class="user__image">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h2 class="user__name">Juliano</h2>
+          </div>
+          <div class="user-modal__account">
+            <p>Agência 00233</p>
+            <p>Conta 79599-9</p>
+          </div>
+        </section>
+        <section class="user-modal__options">
+          <ul class="options__list">
+            <li class="options__item">
+              <i class="fa-solid fa-user"></i>
+              <p>Minha conta</p>
+            </li>
+            <li class="options__item">
+              <i class="fa-solid fa-lock"></i>
+              <p>Segurança</p>
+            </li>
+            <li class="options__item">
+              <i class="fa-solid fa-key"></i>
+              <p>Permissões</p>
+            </li>
+            <li class="options__item">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <p>Preferências</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </dialog>
+    <dialog id="servicesModalController"></dialog>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
